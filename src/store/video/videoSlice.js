@@ -52,7 +52,7 @@ const videoSlice =  createSlice({
           state.loading=true
      })
      builder.addCase(getChannelInfo.fulfilled, (state,action)=>{
-          console.log('비디오 정보',action.payload)
+         // console.log('비디오 정보',action.payload)
           state.channel=action.payload;
       })
     }

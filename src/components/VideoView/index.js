@@ -16,6 +16,7 @@ const VideoView = ({id,channelId}) => {
     return (
         <div className='playVideoBox'>
              <div className='iframeBox'>
+                enablejsapi=1
                 <iframe
                     src={`https://www.youtube-nocookie.com/embed/${id}`}
                     title='youtube video'
