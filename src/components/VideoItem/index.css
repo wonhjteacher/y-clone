@@ -1,0 +1,91 @@
+.videoItem{
+    padding-bottom:0.7em;
+    cursor: pointer;
+}
+/* grid일 때 */
+.videoItemGrid{
+  flex:1 1 14rem; 
+  max-width: 17rem;
+  display: flex;
+  flex-direction: column;
+  padding:0.5em;
+}
+.videoItemGrid .thumbnail-img{
+  width: 100%;
+  margin-bottom:0.7em;
+}
+.descriptionBox{
+  padding: 4px;
+  color: var(--color-light-gray);
+  display: flex;
+  font-size: 14px;
+}
+.description{
+
+}
+.thumbnail-img{
+    width: 100%;
+    margin-bottom:0.7em;
+}
+.videoTitle{
+  color: #fff;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  font-size: 0.7rem;
+  margin-bottom:0.8em;
+  font-weight: 400;
+}
+.channelTitle{
+   font-size: 0.6rem;
+   font-weight: 400;
+   color: var(--color-light-blue);
+}
+
+.videoItemList{
+  display: flex;
+  width: 100%;
+}
+
+/* .VideoRowList .videoItemGrid{
+  flex:1 1 14rem; 
+  max-width: 17rem;
+}
+ */
+.VideoRowList .videoItem{
+  padding-right: 0.5em;
+  padding-left:0.5em
+}
+
+.VideoRowList .videoItemGrid{
+  flex:1 1 50%; 
+  max-width: 50%;;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-dark-gray);
+  background-clip: content-box;
+}
+
+.VideoRowList .thumbnail-img{
+  flex: 1 1 30%;
+  margin-top:0.7rem;
+  margin-left:0.7rem;
+}
+
+.VideoRowList .descriptionBox{
+  padding: 4px;
+  flex: 1 1 70%;
+  color: var(--color-light-gray);
+  display: flex;
+  font-size: 14px;
+  margin-top:0.7rem;
+  margin-left:0.3rem;
+  margin-right:0.3rem;
+}
+
+.watchList .videoItemGrid{
+  display: flex;
+  max-width: 100%;
+  flex: 1 1 100%;
+}

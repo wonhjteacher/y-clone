@@ -1,0 +1,16 @@
+.videoList {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    
+  }
+.VideoGrid{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.videoList.VideoRowList{
+    flex-wrap: wrap;
+  }
+
+ 
