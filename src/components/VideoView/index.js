@@ -16,13 +16,11 @@ const VideoView = ({id,channelId}) => {
     return (
         <div className='playVideoBox'>
              <div className='iframeBox'>
-                enablejsapi=1
                 <iframe
-                    src={`https://www.youtube-nocookie.com/embed/${id}`}
+                    src={`https://www.youtube-nocookie.com/embed/${id}&origin=https://youtube-prc2022.netlify.app`}
                     title='youtube video'
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    frameBorder='0'>   
+                    allowFullScreen>   
              </iframe>
             </div>
             {
